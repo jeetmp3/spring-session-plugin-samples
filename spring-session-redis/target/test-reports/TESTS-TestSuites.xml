@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="jitendra-Aspire-E5-571" id="0" name="SessionTestSpec" package="" tests="2" time="4.092" timestamp="2016-08-02T16:40:25">
+      <properties />
+
+      <testcase classname="SessionTestSpec" name="response must be present" time="3.831" />
+
+      <testcase classname="SessionTestSpec" name="session cookie must be present" time="0.249">
+          <failure message="Condition not satisfied:&#xa;&#xa;driver.manage().getCookieNamed(&quot;SESSION&quot;)&#xa;|      |        |&#xa;|      |        null&#xa;|      org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions@6ac4c3f7&#xa;ChromeDriver: chrome on LINUX (06bfe85ba56e42ca22c5e8cb6a8bbeac)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+driver.manage().getCookieNamed(&quot;SESSION&quot;)
+|      |        |
+|      |        null
+|      org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions@6ac4c3f7
+ChromeDriver: chrome on LINUX (06bfe85ba56e42ca22c5e8cb6a8bbeac)
+
+	at SessionTestSpec.session cookie must be present(SessionTestSpec.groovy:22)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from response must be present--
+--Output from session cookie must be present--
+<org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions@574059d5 this$0=ChromeDriver: chrome on LINUX (06bfe85ba56e42ca22c5e8cb6a8bbeac)>
+]]></system-out>
+
+      <system-err><![CDATA[--Output from response must be present--
+--Output from session cookie must be present--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
