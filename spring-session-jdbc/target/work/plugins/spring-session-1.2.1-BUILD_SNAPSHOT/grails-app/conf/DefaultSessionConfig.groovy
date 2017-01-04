@@ -1,3 +1,4 @@
+import grails.plugin.springsession.enums.JdbcVendors
 import grails.plugin.springsession.enums.Serializer
 import grails.plugin.springsession.enums.SessionStore
 import grails.plugin.springsession.enums.SessionStrategy
@@ -6,8 +7,8 @@ import org.springframework.session.data.mongo.MongoOperationsSessionRepository
 import java.sql.Connection
 
 springsession {
-    maxInactiveInterval = 1800
-    sessionStore = SessionStore.JDBC
+    maxInactiveIntervalInSeconds = 1800
+    sessionStore = SessionStore.REDIS
     defaultSerializer = Serializer.JDK
     strategy {
         defaultStrategy = SessionStrategy.COOKIE
@@ -15,6 +16,12 @@ springsession {
         httpHeader.headerName = "x-auth-token"
     }
     allow.persist.mutable = false
+
+    websocket {
+        stompEndpoints = []
+        appDestinationPrefix = []
+        simpleBrokers = []
+    }
 
     redis {
         connectionFactory {
@@ -36,6 +43,7 @@ springsession {
             password = ''
             timeout = 2000
         }
+        jackson.modules = []
     }
 
     mongo {
@@ -52,6 +60,7 @@ springsession {
     }
 
     jdbc {
+        vendor = JdbcVendors.H2
         driverClassName = "org.h2.Driver"
         url = "jdbc:h2:~/test"
         username = ""
@@ -67,5 +76,82 @@ springsession {
             defaultTransactionIsolation = Connection.TRANSACTION_READ_COMMITTED
             validationQuery = "SELECT 1"
         }
+    }
+
+    hazelcast {
+        configurationUrl {
+            protocol = "http"
+            host = "localhost"
+            port = 6170
+            file = ""
+        }
+        configurationFile = ""
+        properties = [:]
+        instanceName = "Localhost"
+        group {
+            name = "demo"
+            password = ""
+        }
+        network {
+            port = 5701
+            portCount = 100
+            portAutoIncrement = true
+            reuseAddress = false
+            publicAddress = ""
+            outboundPortDefinitions = []
+            outboundPorts = []
+            interfaces {
+                enabled = false
+                interfaceSet = []
+            }
+            join {
+                multicast {
+                    enabled = false
+                    multicastGroup = "224.2.2.3"
+                    multicastPort = 54327
+                    multicastTimeoutSeconds = 2
+                    multicastTimeToLive = 32
+                    trustedInterfaces = []
+                    loopbackModeEnabled = false
+                }
+                tcpIp {
+                    enabled = false
+                    members = []
+                    requiredMember = ""
+                }
+                aws {
+                    enabled = false
+                    accessKey = ""
+                    secretKey = ""
+                    region = "us-east-1"
+                    securityGroupName = ""
+                    tagKey = ""
+                    tagValue = ""
+                    hostHeader = "ec2.amazonaws.com"
+                    connectionTimeoutSeconds = 5
+                }
+            }
+            symmetricEncryption {
+                enabled = false
+                salt = "thesalt"
+                password = "thepassword"
+                iterationCount = 19
+                algorithm = "PBEWithMD5AndDES"
+                key = "key"
+            }
+            socketInterceptor {
+                enabled = false
+                className = ""
+                implementation = null
+                properties = [:]
+            }
+            ssl {
+                enabled = false
+                factoryClassName = ""
+                factoryImplementation = null
+                properties = [:]
+            }
+        }
+
     }
 }

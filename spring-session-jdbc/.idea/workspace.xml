@@ -1,7 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cca04663-49a7-495b-9dad-6c70bf464bac" name="Default" comment="" />
+    <list default="true" id="cca04663-49a7-495b-9dad-6c70bf464bac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-session-mongo/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-session-mongo/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-session-mongo/spring-session-mongo.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure4_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure4_closure5_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure3_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure3_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure3_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure5_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/TomcatGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/redis/config/MasterNamedNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/redis/config/NoOpConfigureRedisAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig$_getJackson2Modules_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSpringDataConfig$_mongo_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreSessionConfig$_redisSentinelConfiguration_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/ParentDelegatingClassLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatKillSwitch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatServer$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_addEventHookToBinding_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createExecutionContext_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext$_buildMinimalIsolatedClasspath_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/mongo/config/MongoStoreSpringDataConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/redis/config/RedisStoreSessionConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/redis/config/MasterNamedNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/redis/config/NoOpConfigureRedisAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure1_closure4_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure1_closure4_closure5_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure2_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure6_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/SpringSessionConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/redis/config/MasterNamedNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/redis/config/NoOpConfigureRedisAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig$_getJackson2Modules_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSpringDataConfig$_mongo_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreSessionConfig$_redisSentinelConfiguration_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/config/SpringSessionConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/mongo/config/MongoStoreSpringDataConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/redis/config/RedisStoreSessionConfig.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/redis/config/MasterNamedNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/redis/config/NoOpConfigureRedisAction.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure8.class" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="$PROJECT_DIR$/target/classes/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/SessionTestController.class" afterPath="$PROJECT_DIR$/target/classes/demo/SessionTestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="$PROJECT_DIR$/target/classes/resources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure2.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure3.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure5.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure4.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure4_closure8.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure4_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure5.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure5_closure9.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure5_closure9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure6.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure6_closure10.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure6_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure7.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure7_closure11.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure1_closure7_closure11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure2.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure2_closure12.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure2_closure12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure3.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSessionGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/config/SpringSessionConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/config/SpringSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/config/SpringSessionConfigProperties.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/config/SpringSessionConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/enums/SessionStore.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/enums/SessionStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreConfigProperties.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig$EnableDefaultTypingModule.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig$EnableDefaultTypingModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSpringDataConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSpringDataConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreConfigProperties.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreSessionConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/utils/ApplicationUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsession/utils/ApplicationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/BootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure1.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure2.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure2_closure8.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure2_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure3.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config$_run_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/DataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/UrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/demo/SessionTestController.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/demo/SessionTestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/classes/resources.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/classes/resources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/test-classes/GebGrailsPlugin.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/test-classes/GebGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4_closure8.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4_closure9.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure4_closure9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure5.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure6.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig$_run_closure1_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultWebXmlConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/DefaultWebXmlConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure2.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/SpringSessionGrailsPlugin$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/SpringSessionGrailsPlugin.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/SpringSessionGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/config/SpringSessionConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/config/SpringSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/config/SpringSessionConfigProperties.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/config/SpringSessionConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/config/WebSocketSessionConfigProperties.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/config/WebSocketSessionConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/hazelcast/config/HazelcastConfigProperties.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/hazelcast/config/HazelcastConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/hazelcast/config/HazelcastStoreSessionConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/hazelcast/config/HazelcastStoreSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreConfigProperties.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig$EnableDefaultTypingModule.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig$EnableDefaultTypingModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSpringDataConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/mongo/config/MongoStoreSpringDataConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreConfigProperties.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreConfigProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreSessionConfig.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/store/redis/config/RedisStoreSessionConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/utils/ApplicationUtils.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/springsession/utils/ApplicationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/demo/SessionTestController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/demo/SessionTestController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-session-jdbc-grailsPlugins.iml" afterPath="$PROJECT_DIR$/spring-session-jdbc-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-session-jdbc.iml" afterPath="$PROJECT_DIR$/spring-session-jdbc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/SpringSessionGrailsPlugin.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/SpringSessionGrailsPlugin.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/grails-app/conf/DefaultSessionConfig.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/grails-app/conf/DefaultSessionConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/config/SpringSessionConfigProperties.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/config/SpringSessionConfigProperties.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/mongo/config/MongoStoreConfigProperties.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/mongo/config/MongoStoreConfigProperties.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/redis/config/RedisStoreConfigProperties.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/redis/config/RedisStoreConfigProperties.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/config/SpringSessionConfig.java" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/config/SpringSessionConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/enums/SessionStore.java" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/enums/SessionStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/utils/ApplicationUtils.java" afterPath="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/utils/ApplicationUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-mongo/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/../spring-session-mongo/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-mongo/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/../spring-session-mongo/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring-session-redis/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/.slcache/.index" afterPath="$PROJECT_DIR$/../spring-session-redis/.slcache/.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/../spring-session-redis/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/grails-app/controllers/demo/SessionTestController.groovy" afterPath="$PROJECT_DIR$/../spring-session-redis/grails-app/controllers/demo/SessionTestController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/stacktrace.log" afterPath="$PROJECT_DIR$/../spring-session-redis/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/SpringSessionGrailsPlugin.groovy" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/SpringSessionGrailsPlugin.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/grails-app/conf/DefaultSessionConfig.groovy" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/grails-app/conf/DefaultSessionConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/config/SpringSessionConfigProperties.groovy" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/config/SpringSessionConfigProperties.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/hazelcast/config/HazelcastConfigProperties.groovy" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/hazelcast/config/HazelcastConfigProperties.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/mongo/config/MongoStoreConfigProperties.groovy" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/mongo/config/MongoStoreConfigProperties.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/redis/config/RedisStoreConfigProperties.groovy" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/redis/config/RedisStoreConfigProperties.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/config/SpringSessionConfig.java" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/config/SpringSessionConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/hazelcast/config/HazelcastStoreSessionConfig.java" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/hazelcast/config/HazelcastStoreSessionConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/utils/ApplicationUtils.java" afterPath="$PROJECT_DIR$/../spring-session-redis/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/utils/ApplicationUtils.java" />
+    </list>
     <ignored path="spring-session-jdbc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/eclipseclasses/" />
@@ -24,33 +286,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1627907">
-              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringSessionGrailsPlugin.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/SpringSessionGrailsPlugin.groovy">
+      <file leaf-file-name="Config.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="294">
+              <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/demo/SimpleModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
               <folding>
-                <element signature="e#0#61#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcStoreSessionConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java">
+      <file leaf-file-name="Util.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/Util.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="97">
+              <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionTestController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/demo/SessionTestController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/demo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMixin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/demo/UserMixin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -59,8 +365,8 @@
       <file leaf-file-name="JdbcHttpSessionConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/jdbc/config/annotation/web/http/JdbcHttpSessionConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="1062">
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
                 <element signature="e#0#4896#0" expanded="false" />
                 <element signature="imports" expanded="false" />
@@ -75,67 +381,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringHttpSessionConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/config/annotation/web/http/SpringHttpSessionConfiguration.java">
+      <file leaf-file-name="JdbcOperationsSessionRepository.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/jdbc/JdbcOperationsSessionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+            <state relative-caret-position="7326">
+              <caret line="523" column="0" selection-start-line="523" selection-start-column="0" selection-end-line="523" selection-end-column="0" />
               <folding>
-                <element signature="e#0#4936#0" expanded="false" />
+                <element signature="e#0#23527#0" expanded="false" />
                 <element signature="imports" expanded="false" />
-                <element signature="e#3399#3420#0" expanded="false" />
-                <element signature="e#4398#4399#0" expanded="false" />
-                <element signature="e#4441#4442#0" expanded="false" />
-                <element signature="e#4888#4889#0" expanded="false" />
-                <element signature="e#4932#4933#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HazelcastHttpSessionConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/hazelcast/config/annotation/web/http/HazelcastHttpSessionConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="46" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSourceTransactionManager.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.0.7.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="101" column="57" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractPlatformTransactionManager.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-tx/jars/spring-tx-4.0.7.RELEASE-sources.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="396" column="29" selection-start-line="396" selection-start-column="29" selection-end-line="396" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionDefinition.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-tx/jars/spring-tx-4.0.7.RELEASE-sources.jar!/org/springframework/transaction/TransactionDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#12066#0" expanded="false" />
+                <element signature="e#11116#12403#0" expanded="false" />
+                <element signature="e#11345#11740#0" expanded="false" />
+                <element signature="e#11739#11740#0" expanded="false" />
+                <element signature="e#11797#11805#0" expanded="false" />
+                <element signature="e#12329#12330#0" expanded="false" />
+                <element signature="e#12378#12379#0" expanded="false" />
+                <element signature="e#12402#12403#0" expanded="false" />
+                <element signature="e#12457#14587#0" expanded="false" />
+                <element signature="e#12721#13083#0" expanded="false" />
+                <element signature="e#13082#13083#0" expanded="false" />
+                <element signature="e#14259#14539#0" expanded="false" />
+                <element signature="e#14538#14539#0" expanded="false" />
+                <element signature="e#14586#14587#0" expanded="false" />
+                <element signature="e#14747#15463#0" expanded="false" />
+                <element signature="e#14965#15313#0" expanded="false" />
+                <element signature="e#15312#15313#0" expanded="false" />
+                <element signature="e#15462#15463#0" expanded="false" />
+                <element signature="e#15694#15927#0" expanded="false" />
+                <element signature="e#15926#15927#0" expanded="false" />
+                <element signature="e#16207#16866#0" expanded="false" />
+                <element signature="e#16411#16798#0" expanded="false" />
+                <element signature="e#16797#16798#0" expanded="false" />
+                <element signature="e#16865#16866#0" expanded="false" />
+                <element signature="e#16921#16942#0" expanded="false" />
+                <element signature="e#17660#17940#0" expanded="false" />
+                <element signature="e#17939#17940#0" expanded="false" />
+                <element signature="e#19029#19030#0" expanded="false" />
+                <element signature="e#19100#19101#0" expanded="false" />
+                <element signature="e#20024#20040#0" expanded="false" />
+                <element signature="e#20274#20275#0" expanded="false" />
+                <element signature="e#20300#20301#0" expanded="false" />
+                <element signature="e#20325#20326#0" expanded="false" />
+                <element signature="e#20353#20354#0" expanded="false" />
+                <element signature="e#20389#20390#0" expanded="false" />
+                <element signature="e#20415#20416#0" expanded="false" />
+                <element signature="e#20550#20551#0" expanded="false" />
+                <element signature="e#20612#20613#0" expanded="false" />
+                <element signature="e#20639#20640#0" expanded="false" />
+                <element signature="e#20676#20677#0" expanded="false" />
+                <element signature="e#20729#20730#0" expanded="false" />
+                <element signature="e#20786#20787#0" expanded="false" />
+                <element signature="e#20830#20831#0" expanded="false" />
+                <element signature="e#20879#20880#0" expanded="false" />
+                <element signature="e#21395#21396#0" expanded="false" />
+                <element signature="e#21442#21443#0" expanded="false" />
+                <element signature="e#21625#21626#0" expanded="false" />
+                <element signature="e#21676#21677#0" expanded="false" />
+                <element signature="e#21877#21878#0" expanded="false" />
+                <element signature="e#21940#21941#0" expanded="false" />
+                <element signature="e#21972#21973#0" expanded="false" />
+                <element signature="e#22013#22014#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -150,20 +470,42 @@
       <projects_view />
     </option>
   </component>
+  <component name="GrailsSDKManager">
+    <option name="grailsSDKs">
+      <map>
+        <entry key="$PROJECT_DIR$" value="$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/grails-app/conf/DefaultSessionConfig.groovy" />
+        <option value="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/sessionTest/index.gsp" />
+        <option value="$PROJECT_DIR$/src/java/demo/UserMixin.java" />
         <option value="$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/src/java/demo/SimpleModule.java" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/demo/SessionTestController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/src/java/demo/User.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="51" />
@@ -171,7 +513,7 @@
     <option name="width" value="1315" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -196,49 +538,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-session-jdbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-session-jdbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-session-jdbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-session-jdbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-session-jdbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo" />
+    </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:spring-session-jdbc">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -249,31 +566,21 @@
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -283,27 +590,15 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -473,13 +768,12 @@
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
       <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -653,6 +947,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -663,6 +958,7 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -673,69 +969,84 @@
       <method />
     </configuration>
     <configuration default="false" name="Grails:spring-session-jdbc" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="spring-session-jdbc" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
       <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="grailsApplicationRoot" value="$PROJECT_DIR$" />
       <setting name="launchBrowser" value="false" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Grails.Grails:spring-session-jdbc" />
     </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cca04663-49a7-495b-9dad-6c70bf464bac" name="Default" comment="" />
       <created>1470643806236</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1470643806236</updated>
       <workItem from="1470643809195" duration="36000" />
       <workItem from="1470643857975" duration="2384000" />
       <workItem from="1470666909784" duration="2765000" />
+      <workItem from="1476543165383" duration="1375000" />
+      <workItem from="1476607512773" duration="9868000" />
+      <workItem from="1476628097336" duration="3429000" />
+      <workItem from="1476688626762" duration="596000" />
+      <workItem from="1476955356258" duration="3174000" />
+      <workItem from="1476976425409" duration="4129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5185000" />
+    <option name="totallyTimeSpent" value="27756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="24" width="1315" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6315007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4775641" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5176282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48878205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24901807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6315007" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -743,231 +1054,379 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6315007" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4775641" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6315007" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5176282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48878205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24901807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java</url>
+          <line>55</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.groovy</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/convertor/Jackson2Deserializer.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grails-app/controllers/demo/SessionTestController.groovy</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/jdbc/config/annotation/web/http/JdbcHttpSessionConfiguration.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="56">
           <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.0.7.RELEASE.jar!/org/springframework/jdbc/support/JdbcAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar!/org/apache/commons/pool2/ObjectPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/commons-dbcp2-2.0-sources.jar!/org/apache/commons/dbcp2/PoolingDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/commons-dbcp2-2.0-sources.jar!/org/apache/commons/dbcp2/BasicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="1412" column="0" selection-start-line="1412" selection-start-column="0" selection-end-line="1412" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.2.1.RELEASE/spring-session-1.2.1.RELEASE.jar!/org/springframework/session/jdbc/schema-drop-mysql.sql">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.2.1.RELEASE/spring-session-1.2.1.RELEASE.jar!/org/springframework/session/jdbc/schema-mysql.sql">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE.jar!/org/springframework/core/io/support/EncodedResource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/SpringSessionGrailsPlugin.groovy">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/StatementImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="223">
+          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.0.7.RELEASE.jar!/org/springframework/jdbc/datasource/init/ScriptStatementFailedException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="121">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.2.1.RELEASE/spring-session-1.2.1.RELEASE.jar!/org/springframework/session/jdbc/config/annotation/web/http/JdbcHttpSessionConfiguration.class">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.0.7.RELEASE.jar!/org/springframework/jdbc/datasource/init/ScriptUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="76">
+          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/enums/JdbcVendors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/web/http/HttpSessionSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.3.7-sources.jar!/org/codehaus/groovy/runtime/IOGroovyMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13968">
+          <caret line="811" column="25" selection-start-line="811" selection-start-column="25" selection-end-line="811" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/sessionTest/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/grails-app/conf/DefaultSessionConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE-sources.jar!/org/springframework/core/convert/support/GenericConversionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding>
-            <element signature="e#0#51#0" expanded="false" />
+            <element signature="e#0#22975#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8054#8055#0" expanded="false" />
+            <element signature="e#8094#8095#0" expanded="false" />
+            <element signature="e#8546#8547#0" expanded="false" />
+            <element signature="e#8564#8565#0" expanded="false" />
+            <element signature="e#11008#11009#0" expanded="false" />
+            <element signature="e#11042#11043#0" expanded="false" />
+            <element signature="e#12656#12657#0" expanded="false" />
+            <element signature="e#12708#12709#0" expanded="false" />
+            <element signature="e#13627#13628#0" expanded="false" />
+            <element signature="e#13681#13682#0" expanded="false" />
+            <element signature="e#14277#14278#0" expanded="false" />
+            <element signature="e#14329#14330#0" expanded="false" />
+            <element signature="e#15219#15220#0" expanded="false" />
+            <element signature="e#15280#15281#0" expanded="false" />
+            <element signature="e#21942#21943#0" expanded="false" />
+            <element signature="e#21986#21987#0" expanded="false" />
+            <element signature="e#22380#22381#0" expanded="false" />
+            <element signature="e#22457#22458#0" expanded="false" />
+            <element signature="e#22658#22659#0" expanded="false" />
+            <element signature="e#22683#22684#0" expanded="false" />
+            <element signature="e#22750#22751#0" expanded="false" />
+            <element signature="e#22770#22771#0" expanded="false" />
+            <element signature="e#22878#22879#0" expanded="false" />
+            <element signature="e#22900#22901#0" expanded="false" />
+            <element signature="e#22942#22943#0" expanded="false" />
+            <element signature="e#22967#22968#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/grails-app/conf/DefaultSessionConfig.groovy">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-web/jars/spring-web-4.0.7.RELEASE-sources.jar!/org/springframework/http/converter/json/MappingJackson2HttpMessageConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.2.1.RELEASE/spring-session-1.2.1.RELEASE.jar!/org/springframework/session/jdbc/schema-drop-mysql.sql">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-web/jars/spring-web-4.0.7.RELEASE-sources.jar!/org/springframework/http/converter/GenericHttpMessageConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="288">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.2.1.RELEASE/spring-session-1.2.1.RELEASE.jar!/org/springframework/session/jdbc/schema-mysql.sql">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-web/jars/spring-web-4.0.7.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="234">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE-sources.jar!/org/springframework/core/convert/ConversionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="216">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/src/grails-datastore-core-3.1.3.RELEASE-sources.jar!/org/grails/datastore/mapping/model/types/conversion/DefaultConversionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="44" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.0.7.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE.jar!/org/springframework/core/serializer/support/SerializingConverter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="57" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="389">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-tx/jars/spring-tx-4.0.7.RELEASE-sources.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-web/jars/spring-web-4.0.7.RELEASE.jar!/org/springframework/web/context/request/RequestContextHolder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="396" column="29" selection-start-line="396" selection-start-column="29" selection-end-line="396" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="69">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/SpringSessionGrailsPlugin.groovy">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/dist/grails-plugin-rest-2.4.4-sources.jar!/org/grails/plugins/web/rest/api/ControllersRestApi.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="91">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/grails/2.4.4/lib/org.springframework/spring-tx/jars/spring-tx-4.0.7.RELEASE-sources.jar!/org/springframework/transaction/TransactionDefinition.java">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/MapSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#12066#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="199">
+          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/web/http/ExpiringSessionHttpSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="127">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.2.1.RELEASE/spring-session-1.2.1.RELEASE.jar!/org/springframework/session/jdbc/config/annotation/web/http/JdbcHttpSessionConfiguration.class">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.0.7.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="91">
+          <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.2.1.RELEASE/spring-session-1.2.1.RELEASE.jar!/org/springframework/session/config/annotation/web/http/SpringHttpSessionConfiguration.class">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.0.7.RELEASE.jar!/org/springframework/jdbc/support/lob/DefaultLobHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="91">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.2.1.RELEASE/spring-session-1.2.1.RELEASE.jar!/org/springframework/session/hazelcast/config/annotation/web/http/HazelcastHttpSessionConfiguration.class">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE.jar!/org/springframework/core/convert/TypeDescriptor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="159">
+          <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-core-4.0.7.RELEASE-sources.jar!/org/springframework/core/convert/TypeDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="533" column="33" selection-start-line="533" selection-start-column="33" selection-end-line="533" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE.jar!/org/springframework/core/convert/support/GenericConversionService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-core-4.0.7.RELEASE-sources.jar!/org/springframework/core/convert/support/GenericConversionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-context/jars/spring-context-4.0.7.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-beans/jars/spring-beans-4.0.7.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-beans/jars/spring-beans-4.0.7.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="458" column="0" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/jdbc/config/annotation/web/http/JdbcHttpSessionConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="1062">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
             <element signature="e#0#4896#0" expanded="false" />
             <element signature="imports" expanded="false" />
@@ -981,34 +1440,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/config/annotation/web/http/SpringHttpSessionConfiguration.java">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/jdbc/JdbcOperationsSessionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        <state relative-caret-position="7326">
+          <caret line="523" column="0" selection-start-line="523" selection-start-column="0" selection-end-line="523" selection-end-column="0" />
           <folding>
-            <element signature="e#0#4936#0" expanded="false" />
+            <element signature="e#0#23527#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#3399#3420#0" expanded="false" />
-            <element signature="e#4398#4399#0" expanded="false" />
-            <element signature="e#4441#4442#0" expanded="false" />
-            <element signature="e#4888#4889#0" expanded="false" />
-            <element signature="e#4932#4933#0" expanded="false" />
+            <element signature="e#11116#12403#0" expanded="false" />
+            <element signature="e#11345#11740#0" expanded="false" />
+            <element signature="e#11739#11740#0" expanded="false" />
+            <element signature="e#11797#11805#0" expanded="false" />
+            <element signature="e#12329#12330#0" expanded="false" />
+            <element signature="e#12378#12379#0" expanded="false" />
+            <element signature="e#12402#12403#0" expanded="false" />
+            <element signature="e#12457#14587#0" expanded="false" />
+            <element signature="e#12721#13083#0" expanded="false" />
+            <element signature="e#13082#13083#0" expanded="false" />
+            <element signature="e#14259#14539#0" expanded="false" />
+            <element signature="e#14538#14539#0" expanded="false" />
+            <element signature="e#14586#14587#0" expanded="false" />
+            <element signature="e#14747#15463#0" expanded="false" />
+            <element signature="e#14965#15313#0" expanded="false" />
+            <element signature="e#15312#15313#0" expanded="false" />
+            <element signature="e#15462#15463#0" expanded="false" />
+            <element signature="e#15694#15927#0" expanded="false" />
+            <element signature="e#15926#15927#0" expanded="false" />
+            <element signature="e#16207#16866#0" expanded="false" />
+            <element signature="e#16411#16798#0" expanded="false" />
+            <element signature="e#16797#16798#0" expanded="false" />
+            <element signature="e#16865#16866#0" expanded="false" />
+            <element signature="e#16921#16942#0" expanded="false" />
+            <element signature="e#17660#17940#0" expanded="false" />
+            <element signature="e#17939#17940#0" expanded="false" />
+            <element signature="e#19029#19030#0" expanded="false" />
+            <element signature="e#19100#19101#0" expanded="false" />
+            <element signature="e#20024#20040#0" expanded="false" />
+            <element signature="e#20274#20275#0" expanded="false" />
+            <element signature="e#20300#20301#0" expanded="false" />
+            <element signature="e#20325#20326#0" expanded="false" />
+            <element signature="e#20353#20354#0" expanded="false" />
+            <element signature="e#20389#20390#0" expanded="false" />
+            <element signature="e#20415#20416#0" expanded="false" />
+            <element signature="e#20550#20551#0" expanded="false" />
+            <element signature="e#20612#20613#0" expanded="false" />
+            <element signature="e#20639#20640#0" expanded="false" />
+            <element signature="e#20676#20677#0" expanded="false" />
+            <element signature="e#20729#20730#0" expanded="false" />
+            <element signature="e#20786#20787#0" expanded="false" />
+            <element signature="e#20830#20831#0" expanded="false" />
+            <element signature="e#20879#20880#0" expanded="false" />
+            <element signature="e#21395#21396#0" expanded="false" />
+            <element signature="e#21442#21443#0" expanded="false" />
+            <element signature="e#21625#21626#0" expanded="false" />
+            <element signature="e#21676#21677#0" expanded="false" />
+            <element signature="e#21877#21878#0" expanded="false" />
+            <element signature="e#21940#21941#0" expanded="false" />
+            <element signature="e#21972#21973#0" expanded="false" />
+            <element signature="e#22013#22014#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-session-1.2.1.RELEASE-sources.jar!/org/springframework/session/hazelcast/config/annotation/web/http/HazelcastHttpSessionConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/convertor/Jackson2Serializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="46" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="46" />
+        <state relative-caret-position="342">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/convertor/Jackson2Deserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/demo/UserMixin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/utils/ApplicationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/groovy/grails/plugin/springsession/store/jdbc/config/JdbcStoreConfigProperties.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/convertor/JacksonConversionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-session-1.2.1-BUILD_SNAPSHOT/src/java/grails/plugin/springsession/store/jdbc/config/JdbcStoreSessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1627907">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/demo/SimpleModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/demo/SessionTestController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/demo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
           <folding />
         </state>
       </provider>

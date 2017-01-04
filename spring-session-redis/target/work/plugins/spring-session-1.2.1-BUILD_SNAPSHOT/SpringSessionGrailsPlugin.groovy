@@ -80,7 +80,7 @@ class SpringSessionGrailsPlugin {
             webSocketSessionConfig(WebSocketSessionConfig, config)
         }
 
-        springSessionConfig(SpringSessionConfig, ref("grailsApplication"), config) {}
+        springSessionConfig(SpringSessionConfig, config) {}
 
         switch (sessionStore) {
             case SessionStore.JDBC:

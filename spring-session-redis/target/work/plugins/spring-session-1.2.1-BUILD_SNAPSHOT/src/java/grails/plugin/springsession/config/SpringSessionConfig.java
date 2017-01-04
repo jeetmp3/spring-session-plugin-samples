@@ -3,7 +3,6 @@ package grails.plugin.springsession.config;
 import grails.plugin.springsession.enums.SessionStrategy;
 import grails.plugin.springsession.web.http.HttpSessionSynchronizer;
 import groovy.util.ConfigObject;
-import org.codehaus.groovy.grails.commons.GrailsApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.serializer.RedisSerializer;
@@ -18,19 +17,15 @@ import java.util.logging.Logger;
 /**
  * @author Jitendra Singh
  */
-@Configuration
+@Configuration("springSessionConfig")
 public class SpringSessionConfig {
 
     private Logger logger = Logger.getLogger(SpringSessionConfig.class.getName());
 
-    GrailsApplication grailsApplication;
-    ConfigObject config;
-    SpringSessionConfigProperties configProperties;
+    private SpringSessionConfigProperties sessionConfigProperties;
 
-    public SpringSessionConfig(GrailsApplication grailsApplication, ConfigObject config) {
-        this.grailsApplication = grailsApplication;
-        this.config = config;
-        this.configProperties = new SpringSessionConfigProperties(config);
+    public SpringSessionConfig(ConfigObject config) {
+        this.sessionConfigProperties = SpringSessionConfigProperties.getInstance(config);
     }
 
     @Bean
@@ -41,22 +36,27 @@ public class SpringSessionConfig {
     @Bean
     public HttpSessionSynchronizer httpSessionSynchronizer() {
         HttpSessionSynchronizer synchronizer = new HttpSessionSynchronizer();
-        synchronizer.setPersistMutable(configProperties.getAllowPersistMutable());
+        synchronizer.setPersistMutable(sessionConfigProperties.getAllowPersistMutable());
         return synchronizer;
     }
 
     @Bean
     public HttpSessionStrategy httpSessionStrategy() {
-        if (configProperties.getDefaultSessionStrategy() == SessionStrategy.HEADER) {
+        if (sessionConfigProperties.getDefaultSessionStrategy() == SessionStrategy.HEADER) {
             HeaderHttpSessionStrategy sessionStrategy = new HeaderHttpSessionStrategy();
-            sessionStrategy.setHeaderName(configProperties.getHttpHeaderName());
+            sessionStrategy.setHeaderName(sessionConfigProperties.getHttpHeaderName());
             return sessionStrategy;
         } else {
             DefaultCookieSerializer cookieSerializer = new DefaultCookieSerializer();
-            cookieSerializer.setCookieName(configProperties.getCookieName());
+            cookieSerializer.setCookieName(sessionConfigProperties.getCookieName());
+            cookieSerializer.setCookieMaxAge(sessionConfigProperties.getMaxInactiveInterval());
             CookieHttpSessionStrategy sessionStrategy = new CookieHttpSessionStrategy();
             sessionStrategy.setCookieSerializer(cookieSerializer);
             return sessionStrategy;
         }
+    }
+
+    public SpringSessionConfigProperties getSessionConfigProperties() {
+        return sessionConfigProperties;
     }
 }

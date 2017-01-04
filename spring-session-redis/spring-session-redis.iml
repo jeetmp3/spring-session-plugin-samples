@@ -281,6 +281,7 @@
           <root url="jar://$MODULE_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/dist/grails-docs-2.4.4-sources.jar!/" />
           <root url="jar://$MODULE_DIR$/../../../../../../18-GB-Shared/.sdkman/candidates/grails/2.4.4/dist/grails-scripts-2.4.4-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ideaLibSources/spring-beans-4.0.0.RELEASE-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-websocket-4.0.5.RELEASE-sources.jar!/" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>

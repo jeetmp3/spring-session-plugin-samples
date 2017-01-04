@@ -198,6 +198,7 @@
           <root url="jar://$USER_HOME$/.ideaLibSources/jackson-databind-2.8.1-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ideaLibSources/commons-dbcp2-2.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ideaLibSources/spring-beans-4.0.0.RELEASE-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-websocket-4.0.5.RELEASE-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

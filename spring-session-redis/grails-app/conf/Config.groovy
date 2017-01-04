@@ -1,5 +1,6 @@
 import grails.plugin.springsession.enums.Serializer
 import grails.plugin.springsession.enums.SessionStore
+import grails.plugin.springsession.enums.SessionStrategy
 
 // locations to search for config files that get merged into the main config;
 // config files can be ConfigSlurper scripts, Java properties files, or classes
@@ -119,4 +120,14 @@ log4j.main = {
             'net.sf.ehcache.hibernate'
 }
 
-springsession.sessionStore = SessionStore.REDIS
+springsession {
+    sessionStore = SessionStore.REDIS
+    maxInactiveIntervalInSeconds = 10
+//    defaultSerializer = Serializer.JDK
+//    strategy {
+//        cookie.name = "SESSION-SESSION"
+//    }
+//    redis {
+//        jackson.modules = ["demo.TestModule"]
+//    }
+}

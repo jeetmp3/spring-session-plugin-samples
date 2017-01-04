@@ -1,3 +1,7 @@
+import grails.plugin.springsession.enums.Serializer
+import grails.plugin.springsession.enums.SessionStore
+import grails.plugin.springsession.enums.SessionStrategy
+
 // locations to search for config files that get merged into the main config;
 // config files can be ConfigSlurper scripts, Java properties files, or classes
 // in the classpath in ConfigSlurper format
@@ -114,4 +118,16 @@ log4j.main = {
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
+}
+
+springsession {
+    sessionStore = SessionStore.MONGO
+    maxInactiveIntervalInSeconds = 10
+    defaultSerializer = Serializer.JDK
+    strategy {
+        defaultStrategy = SessionStrategy.HEADER
+    }
+    mongo {
+        jackson.modules = ["demo.MyModule"]
+    }
 }

@@ -8,6 +8,7 @@ class SessionTestController {
 
     def put(String key, String value) {
         session.setAttribute(key, value)
+        session.setAttribute("user", new User(value))
         redirect(action: 'index')
     }
 

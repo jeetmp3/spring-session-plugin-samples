@@ -1,5 +1,7 @@
 import grails.plugin.springsession.config.SpringSessionConfig
+import grails.plugin.springsession.config.WebSocketSessionConfig
 import grails.plugin.springsession.enums.SessionStore
+import grails.plugin.springsession.store.hazelcast.config.HazelcastStoreSessionConfig
 import grails.plugin.springsession.store.jdbc.config.JdbcStoreSessionConfig
 import grails.plugin.springsession.store.mongo.config.MongoStoreSessionConfig
 import grails.plugin.springsession.store.mongo.config.MongoStoreSpringDataConfig
@@ -74,7 +76,11 @@ class SpringSessionGrailsPlugin {
         ConfigObject config = application.config.springsession
         SessionStore sessionStore = config.sessionStore ?: SessionStore.REDIS
 
-        springSessionConfig(SpringSessionConfig, ref("grailsApplication"), config) {}
+        if(config.websocket.stompEndpoints || config.websocket.appDestinationPrefix || config.websocket.simpleBrokers) {
+            webSocketSessionConfig(WebSocketSessionConfig, config)
+        }
+
+        springSessionConfig(SpringSessionConfig, config) {}
 
         switch (sessionStore) {
             case SessionStore.JDBC:
@@ -83,6 +89,9 @@ class SpringSessionGrailsPlugin {
             case SessionStore.MONGO:
                 mongoSpringDataConfig(MongoStoreSpringDataConfig, config)
                 sessionStoreConfiguration(MongoStoreSessionConfig, ref("grailsApplication"), config)
+                break;
+            case SessionStore.HAZELCAST:
+                sessionStoreConfiguration(HazelcastStoreSessionConfig, ref("grailsApplication"), config)
                 break;
             default:
                 sessionStoreConfiguration(RedisStoreSessionConfig, ref("grailsApplication"), config)

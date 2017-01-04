@@ -1,3 +1,6 @@
+import grails.plugin.springsession.enums.Serializer
+import grails.plugin.springsession.enums.SessionStore
+
 // locations to search for config files that get merged into the main config;
 // config files can be ConfigSlurper scripts, Java properties files, or classes
 // in the classpath in ConfigSlurper format
@@ -115,9 +118,16 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
-
-springsession.jdbc.driverClassName="com.mysql.jdbc.Driver"
-springsession.jdbc.url="jdbc:mysql://localhost:3306/spring_session"
-springsession.jdbc.username="root"
-springsession.jdbc.password="root"
-springsession.jdbc.tableName="SPRING_SESSION"
+springsession {
+    sessionStore = SessionStore.JDBC
+    maxInactiveIntervalInSeconds = 10
+    defaultSerializer = Serializer.JDK
+    jdbc {
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/spring_session"
+        username="root"
+        password="root"
+        tableName="SESSIONS"
+        jackson.modules = ['demo.SimpleModule']
+    }
+}
